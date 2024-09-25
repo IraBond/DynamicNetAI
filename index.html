@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Network Routing</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <h1>Dynamic Network Routing</h1>
+    <div id="network-container"></div>
+    <div id="controls">
+        <input type="text" id="start-node" placeholder="Start Node">
+        <input type="text" id="end-node" placeholder="End Node">
+        <button id="find-path">Find Path</button>
+        <input type="number" id="simulation-iterations" placeholder="Simulation Iterations">
+        <button id="run-simulation">Run Simulation</button>
+    </div>
+    <div id="metrics"></div>
+    <div id="simulation-results"></div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
